@@ -10,7 +10,22 @@ This Subnet directly supports applications like **vhybZ** (a user-facing platfor
 
 ## 2. Problem & Opportunity
 
-Current AI generation often lacks the nuanced "taste," interactivity, and subjective appeal that truly captivates audiences. Creators struggle to translate ideas into polished, engaging interactive experiences without significant manual effort or specialized skills. Simultaneously, specialized GenAI providers capable of such refinement lack efficient channels to reach creators and monetize these niche capabilities.
+Current foundational Generative AI models, while powerful, often produce outputs that require significant human intervention to achieve specific subjective qualities, particularly for **interactive digital artifacts** (e.g., rich HTML experiences, dynamic 3D scenes, etc.). There is a lack of specialized, decentralized infrastructure that can consistently:
+
+1.  **Refine AI-generated artifacts based on nuanced "taste" and desired interactivity:** General models may generate a functional base, but imbuing it with specific aesthetic styles, engaging interactive patterns, and subjective "good feel" remains a complex, often bespoke process.
+2.  **Provide a competitive market for specialized "Taste Augmentation" services:** Developers or platforms (like vhybZ) wanting to incorporate highly refined, subjectively superior AI-generated artifacts into their applications currently lack a decentralized pool of specialized AI services (our "Taste Augmentors") that compete on quality and efficiency for this "last mile" of creative refinement.
+3.  **Objectively (or semi-objectively) evaluate and benchmark the subjective quality of these interactive artifacts at scale:** Measuring "good taste" or "engaging interactivity" is inherently difficult and lacks standardized, decentralized mechanisms for incentivizing improvement in these areas.
+
+**The Opportunity for VibeRunt:**
+
+VibeRunt aims to fill this gap by creating a **decentralized Bittensor Subnet dedicated to the specialized task of generating and iteratively refining interactive digital artifacts according to defined subjective quality profiles ("taste") and engagement potential.**
+
+The opportunity lies in:
+
+*   **Establishing a market for "Taste as a Service":** Allowing applications and platforms to procure AI-generated artifacts that are not just functional but also aesthetically tuned and interactively compelling, by leveraging a competitive network of specialized "Taste Augmentor" Miners.
+*   **Democratizing access to sophisticated AI refinement:** Making high-level "taste augmentation" accessible via an API, where consuming applications can request artifacts with specific stylistic and interactive qualities without needing to build these complex refinement pipelines themselves.
+*   **Driving innovation in subjective AI evaluation:** Creating a framework (Validator Guilds, evolving "Taste Models") that incentivizes the codification and scalable evaluation of subjective artifact quality, pushing the boundaries of what AI can produce in terms of user experience and aesthetic appeal.
+*   **Becoming foundational infrastructure:** Positioning VibeRunt as a core utility layer for any application or platform (including vhybZ) that seeks to incorporate high-quality, AI-generated interactive experiences.
 
 ## 3. The `$VIBE` Token Economy (VibeRunt Subnet Level)
 
