@@ -12,70 +12,62 @@ This Subnet directly supports applications like **vhybZ** (a user-facing platfor
 
 Current AI generation often lacks the nuanced "taste," interactivity, and subjective appeal that truly captivates audiences. Creators struggle to translate ideas into polished, engaging interactive experiences without significant manual effort or specialized skills. Simultaneously, specialized GenAI providers capable of such refinement lack efficient channels to reach creators and monetize these niche capabilities.
 
-The Bittensor ecosystem values subnets that:
-*   Address clear niches and solve real problems in AI.
-*   Foster decentralized competition and specialized "work."
-*   Rely on (increasingly) objective and measurable benchmarking.
-*   Offer practical utility and potential for broad ecosystem integration.
+## 3. The `$VIBE` Token Economy (VibeRunt Subnet Level)
 
-VibeRunt meets these criteria by tackling the subjective challenge of "good design" and "engaging interaction" in AI generation, aiming to codify and scale the curation of aesthetic and interactive quality.
+The `$VIBE` token is the native utility and governance token of the VibeRunt Subnet, designed to fuel a decentralized marketplace for the generation and refinement of subjectively superior interactive digital artifacts. Its tokenomics are centered on clear utility, fair incentivization for network participants, and sustainable value accrual.
 
-## 3. The `$VIBE` Token Economy: A Robust Utility-Driven Model
+### 3.1. Core Utility of `$VIBE`
 
-The VibeRunt Subnet will be powered by its native utility token, **`$VIBE`**. The tokenomics are designed to create a sustainable, self-reinforcing ecosystem where demand is driven by utility and supply is incentivized by fair rewards for valuable contributions.
+`$VIBE` is the medium of exchange for services rendered on the VibeRunt Subnet. Its primary functions are:
+*   **Payment for Work:** Used by consuming applications/platforms to pay Miners for generating and refining interactive artifacts.
+*   **Staking for Participation & Security:** Required for Miners and Validators to participate in the network, secure their roles, and align their incentives with the Subnet's success.
+*   **Governance:** (Future) To allow token holders to participate in decisions regarding Subnet parameters and upgrades.
+*   **Incentivization:** To reward Miners for high-quality "Taste Augmented" outputs and Validators for accurate, consensus-driven curation and evaluation.
 
-### 3.1. Demand Drivers for `$VIBE` (Why Acquire/Spend/Stake):
+### 3.2. Demand for `$VIBE` (Subnet Service Consumers)
 
-*   **Content Creators (via platforms like vhybZ):**
-    *   **Pay-Per-Artifact Generation:** Primary demand sink. Creators spend `$VIBE` to generate and refine interactive artifacts. Costs can scale with complexity or the use of premium "Taste Augmentor" Miners. *Transparency in cost breakdown (which Miners/MCPs are used) is paramount.*
-    *   **Staking for Access & Quotas:** Creators can stake `$VIBE` to receive discounted/free generation quotas, access to premium features, or faster processing. This model preserves creator capital while ensuring platform utility and reducing token velocity. A dedicated creator dashboard will provide full transparency on stake benefits and usage.
-    *   **Engagement Boosting Services:** Spend `$VIBE` for platform features that enhance the visibility and virality potential of their generated artifacts (e.g., enhanced "showcase video" generation).
-    *   **Monetization Features (Future):** Potential to use `$VIBE` to gate exclusive artifacts or pay small listing fees in a creator-to-creator asset marketplace within consuming applications.
+Demand for `$VIBE` is driven by entities requiring the Subnet's specialized artifact generation and refinement capabilities:
 
-*   **GenAI Providers (Miners - "Taste Augmentors"):**
-    *   **Registration & Listing Stake:** Must stake `$VIBE` to operate as a Miner on the VibeRunt Subnet, signaling commitment and providing sybil resistance. Higher stakes could correlate with capacity or visibility.
+*   **Platforms & Applications (e.g., vhybZ app, other creative tools, game engines):** These are the primary consumers. They acquire and spend `$VIBE` to:
+    *   Request artifact generation from VibeRunt Miners on behalf of their end-users. The amount of `$VIBE` spent per request can be dynamic, reflecting the complexity of the request, the quality tier of the Miner ("Taste Augmentor") engaged, and market rates on the Subnet.
+*   **Developers & Businesses Building Custom Solutions:** Entities needing specialized interactive components or on-demand "tasteful" AI generation for their own products or services can directly interact with the Subnet and pay for services in `$VIBE`.
 
-*   **Validators ("Guild Leads"):**
-    *   **Staking Requirement:** Must stake a significant amount of `$VIBE` to become a Validator, aligning their incentives with the Subnet's quality and integrity.
+### 3.3. Supply & Distribution of `$VIBE` (Subnet Service Providers & Curators)
 
-*   **End-Users / Token Holders (General Ecosystem Participants):**
-    *   **Speculative Demand/Investment:** Desire for `$VIBE` appreciation as the ecosystem grows.
-    *   **Staking for Yield:** Standard staking rewards from network emissions by delegating to Validators.
-    *   **(Future) Platform Subscriptions:** Platforms like vhybZ consuming the Subnet's services may offer end-user subscriptions, a portion of which could be used to acquire `$VIBE` for ongoing Subnet interaction, creating indirect demand.
+`$VIBE` enters circulation primarily through rewards for productive participation in the Subnet:
 
-### 3.2. Supply & Distribution of `$VIBE` (How to Earn):
-
-*   **Miners ("Taste Augmentors" / Prompt Engineers):**
-    *   **Primary Earnings: Payment for Validated Generations:** Miners earn `$VIBE` each time their "Taste Augmentor" service successfully generates/refines an artifact that meets the quality and engagement criteria set by Validators. This is a direct payment for their specialized prompt engineering work.
-    *   **Network Emissions:** Receive a share of ongoing `$VIBE` emissions, proportional to the quality and volume of their validated contributions.
-
-*   **Validators ("Guild Leads" curating "Taster" feedback):**
-    *   **Validation Rewards:** Earn `$VIBE` (from network emissions and potentially a share of transaction fees) for accurately:
-        *   Managing their "Guild of Tasters."
-        *   Aggregating and synthesizing subjective feedback.
-        *   Applying "Taste Models" (once developed).
-        *   Evaluating Miner outputs against defined benchmarks and achieving consensus.
-    *   *Long-term income potential for early, high-quality human curators whose data shapes the foundational "Taste Models."*
-
-*   **"Tasters" (within Validator Guilds - "Normal People"):**
-    *   **Feedback-to-Earn:** Earn small amounts of `$VIBE` for providing high-quality, consistent subjective feedback on artifacts, contributing valuable data to the validation process.
-
-*   **Stakers (Delegators to Validators):**
-    *   Earn a share of Validator rewards through network emissions.
-
+*   **Miners ("Taste Augmentors"):**
+    *   **Primary Earnings:** Receive `$VIBE` payments from consuming platforms/applications for each artifact successfully generated/refined and validated by the Subnet's Validators.
+    *   **Network Emissions:** Earn a significant share of the periodic `$VIBE` emissions distributed by the Bittensor network, proportional to their validated contributions (quality, volume, efficiency of their "Taste Augmentation" service).
+*   **Validators ("Guild Leads" & their "Taster Guilds"):**
+    *   **Network Emissions:** Earn a significant share of periodic `$VIBE` emissions for their crucial role in:
+        *   Defining and managing benchmarks and "taste profiles."
+        *   Operating and improving AI-assisted "Taste Models" (once developed).
+        *   Aggregating feedback from their "Taster Guilds."
+        *   Accurately evaluating and scoring Miner outputs, achieving consensus with other Validators.
+    *   **(Indirectly) Tasters:** Guild Leads may distribute a portion of their Validator earnings to their active "Tasters" as `$VIBE` for high-quality subjective feedback, creating a "Feedback-to-Earn" loop within the Guild structure.
+*   **Stakers (General Token Holders delegating to Validators):**
+    *   Earn a share of Validator rewards through network emissions via delegation.
 *   **Subnet Owners (Initial Development Team):**
-    *   Receive the standard Bittensor percentage of `$VIBE` emissions for ongoing Subnet development, maintenance, and ecosystem growth.
+    *   Receive the standard Bittensor percentage of `$VIBE` emissions for ongoing Subnet development, maintenance, marketing, and ecosystem growth initiatives.
 
-### 3.3. Why this Token Economy is Robust & Ensures Longevity:
+### 3.4. Staking `$VIBE` (Network Participation & Security)
 
-*   **Intrinsic Utility:** `$VIBE` is not just speculative; it's essential for the core function of the Subnet – creating interactive artifacts. Creators *need* it.
-*   **Balanced Incentives:** All key actors (Creators, Miners, Validators, Tasters) have clear economic incentives to participate and contribute value.
-*   **Demand Linked to Value:** As the quality and utility of artifacts generated by the Subnet increase (driven by Miner competition and Validator curation), more creators will demand `$VIBE`, increasing its value.
-*   **Reduced Velocity through Staking:** Creator and Validator staking mechanisms lock up supply, promoting long-term alignment.
-*   **Scalable Fallback for Virality:** The vhybZ platform can implement cheaper fallback models if a creator's staked `$VIBE` allowance for viewer interactions is exceeded, ensuring user experience while creating an upsell incentive for creators.
-*   **Virtuous Cycle:** Better Miner "Taste Augmentors" ➜ Higher Quality Artifacts ➜ More Creator Demand for `$VIBE` ➜ Higher Rewards for Miners/Validators ➜ Attracts More/Better Miners & Validators ➜ Further Quality Improvement.
+*   **Miners:** Must stake `$VIBE` to register their "Taste Augmentor" service on the Subnet. The stake acts as a bond for good behavior and may influence their capacity or visibility within the network based on transparent Subnet rules.
+*   **Validators:** Must stake a substantial amount of `$VIBE` to operate, ensuring their commitment to fair and accurate evaluation and the overall integrity of the Subnet. Slashing mechanisms for malicious or consistently poor validation can be implemented.
+*   **General Token Holders:** Can stake their `$VIBE` by delegating to Validators of their choice to earn a yield from network emissions, contributing to the network's security and decentralization of validation power.
 
-## 4. VibeRunt Subnet Mechanism: For the Bittensor Nerd
+### 3.5. Robustness of the VibeRunt Token Economy:
+
+This design ensures longevity and value accrual through:
+
+*   **Pure Utility-Driven Demand:** `$VIBE` is fundamentally required to access the Subnet's core service (artifact generation/refinement). Demand scales directly with the adoption and usage of platforms built on VibeRunt.
+*   **Market-Driven Service Pricing:** The "price" (in `$VIBE`) for different qualities or complexities of artifact generation can be determined by competition among Miners and demand from consuming applications, creating an efficient market.
+*   **Incentive Alignment:** All participants (Miners, Validators, Stakers, Subnet Owners) are incentivized to contribute to the quality, security, and growth of the network because their rewards are tied to its success and the utility of `$VIBE`.
+*   **Decentralized Quality Control:** The Validator Guild system, evolving towards AI-assisted "Taste Models," aims to create a scalable and increasingly objective way to curate subjective quality, which is the Subnet's core differentiator.
+*   **Foundation for Application-Layer Economies:** VibeRunt provides the stable, tokenized infrastructure. Applications like vhybZ can then build their own user-facing economic models (e.g., creator staking, subscriptions) that utilize `$VIBE` as the underlying settlement layer for AI services.
+
+## 4. VibeRunt Subnet Mechanism
 
 This section details the technical and operational aspects aligning with Bittensor's core principles.
 
