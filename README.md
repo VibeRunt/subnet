@@ -238,12 +238,12 @@ The future isn't about AI replacing developers. It's about AI agents orchestrati
 ### **Keyvan M. Sadeghi - Co-founder & CEO**
 *Senior AI Solutions Architect | AGI Research Veteran*
 
-**The Vision Architect**: Keyvan brings 13+ years bridging cutting-edge AI research with production systems that ship. His unique combination of academic AGI research (published papers with Ben Goertzel at OpenCog) and entrepreneurial execution (raised $2.5M+, shipped hardware to 1000+ nodes) positions him to architect the theoretical frameworks that power vhybZ's competitive dynamics.
+**The Vision Architect**: Keyvan brings 13+ years bridging cutting-edge AI research and shipping production systems. His unique combination of academic AGI research (published [AGI papers](https://scholar.google.com/citations?user=aVLwjvYAAAAJ) with Ben Goertzel, 2012-2014) and entrepreneurial execution (raised $2.5M+ between [crowdfunding](https://indiegogo.com/at/functionland) and VC for [Functionland](https://venturebeat.com/business/functionland-unveils-groundbreaking-hardware-box-the-web3-solution-to-cloud-subscriptions/), pioneering DePIN before the term's coinage) positions him to architect the theoretical frameworks that power vhybZ's competitive dynamics.
 
 **Key Credentials:**
 - **Academic Foundation**: MSc AI (Distinction), 4 published papers on cognitive architectures and multi-agent systems  
 - **Production AI**: Led development of LLM-powered decentralized solutions on 1k+ edge nodes at Functionland
-- **Team Scaling**: Scaled technical teams to 70+ people, secured $1.1M+ funding (Techstars SEA '22)
+- **Team Scaling**: Scaled technical teams to 70+ people, secured a $1.1M+ seed funding round ([Techstars SEA '22](https://www.techstars.com/newsroom/announcing-the-2022-filecoin-techstars-accelerator-class))
 - **Infrastructure**: Built production MLOps, CI/CD, and observability systems for AI workloads
 - **Standards Leadership**: Chair of W3C Functional Knowledge Graph Community Group
 
@@ -252,7 +252,7 @@ The future isn't about AI replacing developers. It's about AI agents orchestrati
 ### **Julien Serbanescu - Co-founder & CTO**  
 *AI Engineering Prodigy | Multi-Agent Systems Specialist*
 
-**The Implementation Engine**: At just 19, Julien has already mastered the exact technologies vhybZ requires - multi-agent frameworks, MCP integration, and RAG systems. His obsessive hackathon track record (7+ major competitions) demonstrates an uncanny ability to rapidly prototype and ship complex AI systems under extreme pressure - exactly the execution velocity needed to bring vhybZ's ambitious technical architecture to market.
+**The Implementation Engine**: At just 19, Julien has already mastered the exact technologies vhybZ requires - multi-agent frameworks, MCP integration, and RAG systems. His obsessive [hackathon track record](https://devpost.com/julien-serbanescu) demonstrates an uncanny ability to rapidly prototype and ship complex AI systems under extreme pressure - exactly the execution velocity needed to bring vhybZ's ambitious technical architecture to market.
 
 **Key Credentials:**
 - **Multi-Agent Expertise**: Built "Neurobloom" using agent-to-agent (A2A) frameworks with Gemini API, focusing on emotional state detection and contextual AI responses
