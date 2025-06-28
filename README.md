@@ -6,7 +6,7 @@
 
 AI coding tools are creating more work than they save. Developers report spending more time managing AI output than actually coding - hitting the "85% problem" where "your code starts breaking or being rewritten by the very same agent that helped you build it, making it impossible to get to the finish line" ([reddit](https://www.reddit.com/r/ClaudeAI/comments/1jbfav8/i_have_zero_coding_experience_and_the_85_problem/)). 
 
-(Claude dude, write) ([LeadDev]([https://www.reddit.com/r/ExperiencedDevs/comments/1kfplpz/trying_to_use_ai_to_write_code_is_absolute_misery/](https://leaddev.com/velocity/ai-coding-assistants-arent-really-making-devs-feel-more-productive)). 
+Despite headlines about AI improving developer productivity, "only 6% of engineering leaders have seen a significant productivity boost" from AI coding assistants ([LeadDev](https://leaddev.com/velocity/ai-coding-assistants-arent-really-making-devs-feel-more-productive)). 
 
 The productivity impact is documented: "Over three in four (77%) say AI tools have decreased their productivity and added to their workload" with "Nearly half (47%) of workers using AI say they have no idea how to achieve the productivity gains their employers expect" ([Upwork Study](https://investors.upwork.com/news-releases/news-release-details/upwork-study-finds-employee-workloads-rising-despite-increased-c)).
 
