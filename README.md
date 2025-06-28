@@ -250,7 +250,7 @@ The future isn't about AI replacing developers. It's about AI agents orchestrati
 ### **Julien Serbanescu - Co-founder & CTO**  
 *AI Engineering Prodigy | Multi-Agent Systems Specialist*
 
-**The Implementation Engine**: At just 19, Julien has already mastered the exact technologies vhybZ requires - multi-agent frameworks, MCP integration, and RAG systems. His obsessive [hackathon track record](https://devpost.com/julien-serbanescu) demonstrates an uncanny ability to rapidly prototype and ship complex AI systems under extreme pressure - exactly the execution velocity needed to bring vhybZ's ambitious technical architecture to market.
+**The Implementation Engine**: A programming prodigy, Julien has already mastered the exact technologies vhybZ requires - multi-agent frameworks, MCP integration, and RAG systems. His obsessive [hackathon track record](https://devpost.com/julien-serbanescu) demonstrates an uncanny ability to rapidly prototype and ship complex AI systems under extreme pressure - exactly the execution velocity needed to bring vhybZ's ambitious technical architecture to market.
 
 **Key Credentials:**
 - **Multi-Agent Expertise**: Built "Neurobloom" using agent-to-agent (A2A) frameworks with Gemini API, focusing on emotional state detection and contextual AI responses
