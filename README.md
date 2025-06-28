@@ -1,4 +1,4 @@
-# vhybZ: The Crowdsourced Cognitive Core for Coding Agents
+# vhybZ: Crowdsourcing The `Cognitive Core` for Coding Agents
 
 ## **Part I: The Executive Thesis**
 
@@ -6,13 +6,11 @@
 
 AI coding tools are creating more work than they save. Developers report spending more time managing AI output than actually coding - hitting the "85% problem" where "your code starts breaking or being rewritten by the very same agent that helped you build it, making it impossible to get to the finish line" ([reddit](https://www.reddit.com/r/ClaudeAI/comments/1jbfav8/i_have_zero_coding_experience_and_the_85_problem/)). 
 
-Teams are drowning in AI-generated work: getting "30 PR's a day" of AI-generated code that requires extensive review, with developers saying "these PR's are becoming exhausting" and "nobody wants to talk about this" ([reddit](https://www.reddit.com/r/ExperiencedDevs/comments/1kfplpz/trying_to_use_ai_to_write_code_is_absolute_misery/)). 
+(Claude dude, write) ([LeadDev]([https://www.reddit.com/r/ExperiencedDevs/comments/1kfplpz/trying_to_use_ai_to_write_code_is_absolute_misery/](https://leaddev.com/velocity/ai-coding-assistants-arent-really-making-devs-feel-more-productive)). 
 
 The productivity impact is documented: "Over three in four (77%) say AI tools have decreased their productivity and added to their workload" with "Nearly half (47%) of workers using AI say they have no idea how to achieve the productivity gains their employers expect" ([Upwork Study](https://investors.upwork.com/news-releases/news-release-details/upwork-study-finds-employee-workloads-rising-despite-increased-c)).
 
-This crisis stems from a fundamental limitation: every AI coding agent gives identical generic suggestions regardless of project history, architectural decisions, or domain requirements. Whether you're a React expert or beginner, Claude Code provides the same vanilla recommendations. The AI doesn't know your codebase uses Zustand, prefers functional components, or has custom error patterns.
-
-Foundational models, trained on statistical averages, excel at producing average outcomes. This creates a rising tide of **AI Slop**: functional but soulless code, architecturally generic designs, undifferentiated user experiences. Studies show 77% of workers say AI tools have *decreased* their productivity.
+Foundational models, trained on statistical averages, excel at producing average outcomes. This creates a rising tide of **AI Slop**: functional but soulless code, architecturally generic designs, undifferentiated user experiences.
 
 The underlying issue isn't a technical limitation of LLMs - it's a **market failure**. Thousands of world-class experts possess deep, specialized knowledge in narrow domains (React Server Components, Solidity security patterns, GPU shader optimization). They spend countless hours staying current, but this expertise only benefits their own projects. There's no efficient mechanism to connect high-value, opinionated knowledge with AI coding agents that desperately need context-aware guidance.
 
@@ -24,15 +22,15 @@ The underlying issue isn't a technical limitation of LLMs - it's a **market fail
 - **Input**: AI agent sends a basic prompt like "add authentication to my Next.js app"
 - **Output**: Receives an evolved prompt like "Implement NextAuth.js v5 with Prisma adapter using JWT strategy, configure OAuth providers in .env.local, add middleware protection to /app/(protected) routes using Next.js 14 App Router patterns, ensure TypeScript types are properly exported from auth.ts"
 
-We provide the framework for experts to codify their unique development philosophies into specialized AI agents (**Miners**). These Miners compete to evolve basic prompts into expert-level instructions. The best evolved prompts - those that make AI coding agents produce superior code - earn proportional rewards.
+We provide the framework (starting with `.vibe` developer tool) for experts to codify their unique development philosophies into specialized AI agents (**Miners**). These Miners compete to evolve basic prompts into expert-level instructions. The best evolved prompts - those that make AI coding agents produce superior code - earn proportional rewards.
 
-**Core Innovation**: Every project gets a persistent **`ProjectID`** that accumulates architectural decisions over time. Specialized Miners compete to evolve prompts based on this complete context. The network doesn't generate code - it generates the evolved prompts that make AI coding agents generate *better* code.
+**Core Innovation**: The network doesn't generate code - it generates the evolved prompts that make AI coding agents generate *better* code.
 
-Our method builds on recent AI research showing how collaborating agents consistently outperform single models (*"Agents of Change," Belle et al., 2025*).
+Our method builds on recent AI research showing how collaborating agents consistently outperform single models (*"Agents of Change," [Belle et al.](https://arxiv.org/pdf/2506.04651v1), 2025*).
 
 ### **3. Why This Matters Now**
 
-The economics are shifting rapidly. AI execution has become commodity - Claude, Cursor, and Copilot all generate competent code. The differentiator isn't code generation anymore, it's providing the strategic guidance to generate the *right* code.
+The economics are shifting rapidly. AI execution has become commodity - [Cursor](https://www.cursor.com), [Loveable](https://lovable.dev/) and [Claude Code](https://docs.anthropic.com/en/docs/claude-code) all generate competent code. The differentiator isn't code generation anymore, it's providing the strategic guidance to generate the *right* code.
 
 The cost of maintaining deep expertise is too high for one project but becomes highly profitable when amortized across thousands of AI agents. Each project interaction builds on previous decisions, creating exponentially more valuable context over time. Meanwhile, the Bittensor ecosystem has matured with dedicated subnets for LLM inference (**Apex, SN1**) and decentralized storage (**FileTAO, SN21**).
 
@@ -265,7 +263,7 @@ The future isn't about AI replacing developers. It's about AI agents orchestrati
 
 *"The future of coding isn't about replacing developers - it's about giving every AI agent access to world-class architectural guidance. We're building the crowdsourced cognitive core to make that real."*
 
-### **Why This Team Wins**
+### **Why This Team**
 
 **Complementary Expertise**: Keyvan provides the theoretical depth and business execution experience, while Julien brings the rapid implementation skills and cutting-edge technical knowledge.
 
