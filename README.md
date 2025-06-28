@@ -24,9 +24,7 @@ The underlying issue isn't a technical limitation of LLMs - it's a **market fail
 
 We provide the framework (starting with `.vibe` developer tool) for experts to codify their unique development philosophies into specialized AI agents (**Miners**). These Miners compete to evolve basic prompts into expert-level instructions. The best evolved prompts - those that make AI coding agents produce superior code - earn proportional rewards.
 
-**Core Innovation**: The network doesn't generate code - it generates the evolved prompts that make AI coding agents generate *better* code.
-
-Our method builds on recent AI research showing how collaborating agents consistently outperform single models (*"Agents of Change," [Belle et al.](https://arxiv.org/pdf/2506.04651v1), 2025*).
+**Core Innovation**: The network doesn't generate code - it generates the evolved prompts that make AI coding agents generate *better* code. Our method builds on recent AI research showing how collaborating agents consistently outperform single models (*"Agents of Change," [Belle et al.](https://arxiv.org/pdf/2506.04651v1), 2025*).
 
 ### **3. Why This Matters Now**
 
@@ -62,7 +60,7 @@ It's a flywheel, but one grounded in real utility rather than speculation.
 
 First, query fees. This is the primary driver - AI platforms, developer tools, and enterprises must pay $VIBE to receive evolved prompts for their coding agents. We use dynamic pricing based on complexity and miner specialization, plus enterprise bulk purchasing for high-volume AI integrations.
 
-Second, miner stakes. Experts must stake $VIBE proportional to their claimed expertise breadth. A single-domain specialist needs 10,000 $VIBE minimum. Each additional domain costs 1.5x more, incentivizing focus over generalization. Stakes lock for 30 days minimum, creating persistent supply reduction.
+Second, miner stakes. Experts must stake $VIBE proportional to their claimed expertise breadth. A single-domain specialist needs 10,000 minimum. Each additional domain costs 1.5x more, incentivizing focus over generalization. Stakes lock for 30 days minimum, creating persistent supply reduction.
 
 Third, validator bonds. Validators stake significantly more to participate in consensus - 100,000 $VIBE minimum. Higher stakes mean higher weight in consensus formation. We slash stakes for malicious behavior or persistent outlier scoring.
 
@@ -248,7 +246,7 @@ The future isn't about AI replacing developers. It's about AI agents orchestrati
 *"I've spent a decade watching brilliant experts reinvent the same architectural patterns in isolation. vhybZ finally gives us the protocol to multiply that expertise across thousands of AI agents."*
 
 ### **Julien Serbanescu - Co-founder & CTO**  
-*AI Engineering Prodigy | Multi-Agent Systems Specialist*
+*AI Engineer | Multi-Agent Systems Specialist*
 
 **The Implementation Engine**: A programming prodigy, Julien has already mastered the exact technologies vhybZ requires - multi-agent frameworks, MCP integration, and RAG systems. His obsessive [hackathon track record](https://devpost.com/julien-serbanescu) demonstrates an uncanny ability to rapidly prototype and ship complex AI systems under extreme pressure - exactly the execution velocity needed to bring vhybZ's ambitious technical architecture to market.
 
@@ -257,7 +255,7 @@ The future isn't about AI replacing developers. It's about AI agents orchestrati
 - **Research Depth**: Co-authored ACM SIGIR paper on machine reading comprehension, USRA researcher at University of Guelph
 - **Hackathon Dominance**: Serial winner across 7+ competitions (DeltaHacks, GDSC) - from AI-powered waste sorting (BinThere.ai) to medical barcode scanning (Medisense) to networking acceleration (JustIn)
 - **Production Experience**: Co-founder/CTO of AthenaGuard, full-stack development across React, FastAPI, Python
-- **MCP Pioneer**: Built "Synthia" integrating Model Context Protocol, taught workshops on Anthropic's MCP framework (with Keyvan as teammate)
+- **MCP Pioneer**: Built "Synthia" integrating Model Context Protocol (with Keyvan as teammate), taught workshops on Anthropic's MCP framework
 
 **The "24-Hour Builder"**: Julien's superpower is transforming complex AI concepts into working prototypes in hackathon timeframes. His portfolio spans the exact domains vhybZ targets - from agent-to-agent communication to context-aware AI systems to developer productivity tools.
 
