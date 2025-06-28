@@ -211,7 +211,7 @@ The race for LLM "cognitive core" is underway - lightweight models that sacrific
 
 Unlike monolithic cognitive cores trained once, vhybZ's expertise evolves continuously through competition. When your on-device coding agent needs to implement authentication, it doesn't just reason about generic patterns - it taps into the collective wisdom of experts who've solved this exact problem across thousands of different architectural contexts.
 
-| Factor | Walled Garden AI Tools | **vhybZ Protocol** |
+| Factor | Walled Garden AI Coding Tools | **vhybZ Protocol** |
 | :--- | :--- | :--- |
 | **Core Function** | **Execution Engine:** Generate code based on prompts. They are the "hands." | **Prompt Evolution:** Transform vague requests into expert-level prompts for AI agents. We are the "expertise layer." |
 | **Source of Expertise** | **Centralized & Static:** Single proprietary "master prompt" from in-house teams. Generic, one-size-fits-all. | **Decentralized & Dynamic:** Competitive market of thousands of specialized miners whose expertise constantly evolves. |
