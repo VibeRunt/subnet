@@ -265,7 +265,7 @@ The future isn't about AI replacing developers. It's about AI agents orchestrati
 
 ### **Why This Team**
 
-**Complementary Expertise**: Keyvan provides the theoretical depth and business execution experience, while Julien brings the rapid implementation skills and cutting-edge technical knowledge.
+**Complementary Expertise**: [Keyvan](https://www.linkedin.com/in/keyvanmsadeghi) provides the theoretical depth and business execution experience, while [Julien](https://www.linkedin.com/in/julien-serbanescu-6ba52a241) brings the rapid implementation skills and cutting-edge technical knowledge.
 
 **Proven Collaboration**: The founders met at UofT's GenAI Genesis hackathon and have since collaborated on three competitions together, demonstrating their ability to rapidly iterate and ship AI systems as a team. Both have experience leading technical teams and translating complex AI research into production systems.
 
