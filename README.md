@@ -1,27 +1,33 @@
-# Transpoze: Transform Developer Workflows into Tradeable Intelligence
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
+</script>
+
+# Transpoze: Coding Workflows as Tradeable Intelligence
 
 ## **Part I: The Executive Thesis**
 
 ### **1. Problem: The Crisis of Generic AI**
 
-AI coding tools are creating more work than they save. Developers report spending more time managing AI output than actually coding - hitting the "85% problem" where "your code starts breaking or being rewritten by the very same agent that helped you build it, making it impossible to get to the finish line" ([reddit](https://www.reddit.com/r/ClaudeAI/comments/1jbfav8/i_have_zero_coding_experience_and_the_85_problem/)). 
+AI coding tools are creating more work than they save. Developers report spending more time managing AI output than actually coding: hitting the **"85% problem"** where "your code starts breaking or being rewritten by the very same agent that helped you build it, making it impossible to get to the finish line" ([reddit](https://www.reddit.com/r/ClaudeAI/comments/1jbfav8/i_have_zero_coding_experience_and_the_85_problem/)).
 
-Despite headlines about AI improving developer productivity, "only 6% of engineering leaders have seen a significant productivity boost" from AI coding assistants ([LeadDev](https://leaddev.com/velocity/ai-coding-assistants-arent-really-making-devs-feel-more-productive)). 
+[<center><img src="./assets/CNBC.jpg" width="40%"></center>](https://www.youtube.com/watch?v=shOLHtyUaFg)
+
+Despite headlines about AI improving developer productivity, "only 6% of engineering leaders have seen a significant productivity boost" from AI coding assistants ([LeadDev](https://leaddev.com/velocity/ai-coding-assistants-arent-really-making-devs-feel-more-productive)). Model Evaluation and Transparency Research, a non-profit organization, found that experienced developers were 19% slower when using AI coding tools ([METR](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)).
 
 The productivity impact is documented: "Over three in four (77%) say AI tools have decreased their productivity and added to their workload" with "Nearly half (47%) of workers using AI say they have no idea how to achieve the productivity gains their employers expect" ([Upwork Study](https://investors.upwork.com/news-releases/news-release-details/upwork-study-finds-employee-workloads-rising-despite-increased-c)).
 
-Foundational models, trained on statistical averages, excel at producing average outcomes. This creates a rising tide of **AI Slop**: functional but soulless code, architecturally generic designs, undifferentiated user experiences.
+Foundational models, trained on statistical averages, excel at producing banal outcomes. This creates a rising tide of **AI Slop**: functional but soulless code, architecturally generic designs, undifferentiated user experiences.
 
-The underlying issue isn't a technical limitation of LLMs - it's an **expertise isolation problem**. Millions of developers solve similar problems daily, debugging the same errors, discovering the same patterns, learning the same lessons - but this hard-won knowledge remains trapped in individual projects. There's no efficient mechanism to transform these valuable workflows into collective intelligence that could enhance AI coding agents.
+The underlying issue isn't a technical limitation of LLMs, it's an **expertise isolation problem**. Millions of developers solve similar problems daily, debugging the same errors, discovering the same patterns, learning the same lessons; but this hard-won knowledge remains trapped in individual projects. There's no efficient mechanism to transform these valuable workflows into collective intelligence that could enhance AI coding agents.
 
 ### **2. Solution: Transform Daily Coding into Mining Dividends**
 
 **Transpoze** creates a decentralized marketplace where developer workflows become tradeable intelligence, enhancing AI coding agents with real-world experience.
 
-**The Simple Flow**: 
-- **Input**: Developer codes normally with AI tools (Cursor and Claude Code)
-- **Capture**: dotvibe CLI captures workflow patterns, decisions, errors, and solutions
-- **Output**: Other developers' AI agents get enriched responses based on real experiences
+#### The Simple Flow
+
+As a developer codes naturally using tools like Cursor and Claude Code, our open source **["dotvibe CLI"](https://github.com/vhybzOS/dotvibe)** dev tool quietly observes. It captures patterns in their workflow: the decisions they make, the errors they run into, and how they resolve them. Over time, this knowledge becomes part of a collective memory. When other developers interact with their coding agents, the responses are informed not just by static training data, but by accumulated, real-world development experiences of their peers.
 
 **Example**: 
 - **Query**: "add authentication to my Next.js app"
@@ -29,25 +35,24 @@ The underlying issue isn't a technical limitation of LLMs - it's an **expertise 
   - Dev A: better-auth + Prisma worked perfectly (saved 2 hours)
   - Dev B: Hit middleware Edge runtime error (here's the fix)
   - Dev C: Added social auth seamlessly
-  Here's what worked across all three..."
 
-We provide the infrastructure (starting with **dotvibe** CLI) for developers to automatically mine their workflows into valuable data. The network curates and distributes these experiences to enhance AI coding assistants. Developers earn **$NOTE** proportional to how much their workflows help others.
+We provide the infrastructure (starting with the **`dotvibe CLI`**) for developers to automatically mine their workflows into valuable data. The network curates and distributes these experiences to enhance AI coding assistants. Developers earn **$NOTE** proportional to how much their workflows help others.
 
-**Core Innovation**: The network doesn't generate code - it captures and curates the development workflows that make AI coding agents generate *better* code. Our approach synthesizes insights from recent research: multi-agent collaboration (*"Agents of Change," [Belle et al.](https://arxiv.org/pdf/2506.04651v1), 2025*) for experience aggregation, and chain-of-thought distillation (*"Symbolic Chain-of-Thought Distillation," [Li et al.](https://arxiv.org/html/2306.14050), 2023*) for transferring complex development reasoning patterns to AI assistants.
+**Core Innovation**: The network doesn't generate code, it captures and curates the development workflows that make AI coding agents generate *better* code. Our approach draws on insights from recent research: multi-agent collaboration (**"Agents of Change," [Belle et al.](https://arxiv.org/pdf/2506.04651v1), 2025**) for experience aggregation, and chain-of-thought distillation (**"Symbolic Chain-of-Thought Distillation," [Li et al.](https://arxiv.org/html/2306.14050), 2023**) for transferring complex development reasoning patterns to coding agents.
 
 ### **3. Why This Matters Now**
 
-The economics are shifting rapidly. AI execution has become commodity - [Cursor](https://www.cursor.com) and [Claude Code](https://docs.anthropic.com/en/docs/claude-code) all generate competent code. The differentiator isn't code generation anymore, it's providing the contextual intelligence to generate the *right* code.
+The economics are shifting rapidly. AI execution has become commodity: [Cursor](https://www.cursor.com), [Claude Code](https://docs.anthropic.com/en/docs/claude-code) and most agentic coding tools generate competent code. The differentiator isn't code generation anymore, it's providing the contextual intelligence to generate the *right* code.
 
-Developers are already doing the hard work - debugging, experimenting, finding what works. But this valuable workflow data vanishes after each session. Transpoze captures this natural byproduct of development and transforms it into mining dividends. Meanwhile, the Bittensor ecosystem has matured with dedicated subnets for LLM inference (**Apex, SN1**) and decentralized storage (**FileTAO, SN21**), and Model Context Protocol (MCP) makes integration seamless.
+Developers are already doing the hard work: debugging, experimenting, finding what works. But this valuable workflow data vanishes after each session. Transpoze captures this natural byproduct of development and transforms it into mining dividends. Meanwhile, the Bittensor ecosystem has matured with dedicated subnets for LLM inference (**Apex, SN1 / Chutes, SN64**), and specialized subnets for confidential AI execution and crowdsourced human-preference data collection (**Targon, SN4 / Dojo, SN52**). Transpoze will integrate with these existing subnets. In parallel, Model Context Protocol (MCP) provides a standard interface layer for tool orchestration.
 
 ### **4. Incentive Alignment: Development Dividends**
 
-This isn't passive income - it's **earned dividends** from your development expertise. Developers naturally generate valuable workflow data through their daily coding. Transpoze transforms this into a dividend stream proportional to how much your experiences help other developers.
+**$NOTE** is not passive income, it's **earned dividends** from development expertise. Developers naturally generate valuable workflow data through their daily coding. Transpoze transforms this into a dividend stream proportional to how much these experiences help other developers.
 
 ### **5. Ask: Subnet Registration**
 
-Our architecture is validated, our go-to-market plan via the **dotvibe** CLI is defined, and the market need is clear. We're seeking **registration for the Transpoze Subnet** to deploy what we believe will be foundational infrastructure for collaborative AI-enhanced development.
+Our architecture is validated, our go-to-market plan via **`dotvibe`** is defined, and the market need is clear. We're seeking **registration for the Transpoze Subnet** to deploy what we believe will be a potential path toward emergent superintelligence through agentic coding.
 
 ---
 
@@ -57,17 +62,17 @@ The **$NOTE** token solves a simple problem: how do you reward developers for th
 
 Most crypto projects complicate this with governance tokens and speculation mechanisms. We took the opposite approach. $NOTE has one purpose: accessing and rewarding the curation of real development workflows. That's it.
 
-Think of it like earning dividends from your debugging sessions, architectural decisions, and problem-solving patterns that help other developers through their AI assistants.
+Think of it like earning dividends from your debugging sessions, architectural decisions, and problem-solving patterns that help other developers through their coding assistants.
 
 **Here's how the economics work:**
 
-AI platforms and developers need real-world development experiences for their coding agents, so they buy $NOTE to access the network. The better the curated workflows, the more AI systems want them. More demand means higher token value, which attracts more developers as miners. More developers create richer workflow data, attracting more AI platforms.
+Vibe coding platforms and junior developers need real-world development experiences for their coding agents, so they buy $NOTE to access the network. The better the curated workflows, the more AI systems want them. More demand means higher token value, which attracts more developers as miners. More developers create richer workflow data, attracting more platforms in need of curated system prompts.
 
 It's a flywheel that rewards genuine development work with consistent dividends.
 
 **The demand comes from three sources:**
 
-First, query fees. This is the primary driver - AI platforms, developer tools, and enterprises must pay $NOTE to access curated development experiences. We use dynamic pricing based on query complexity and workflow relevance, plus enterprise bulk purchasing for high-volume AI integrations.
+First, query fees. This is the primary driver - AI platforms, developer tools, and enterprises must pay $NOTE to access curated development experiences. We use dynamic pricing based on query complexity and workflow relevance.
 
 Second, miner stakes. Developers must stake $NOTE to opt into mining - just 1,000 minimum to start sharing workflows. Higher stakes increase mining weight and potential dividends. Stakes lock for 30 days minimum, creating persistent supply reduction.
 
@@ -75,7 +80,7 @@ Third, validator bonds. Validators stake significantly more to participate in co
 
 **Supply follows Bittensor's standard model:** 41% to miners based on workflow value and usage, 41% to validators weighted by consensus accuracy, 18% to subnet development for protocol advancement and partnerships. All emissions vest over 7 days to prevent dumping.
 
-For consistent AI platforms, we offer staking-based payment. Stake 50,000+ $NOTE to earn "query credits" from staking rewards - about 10 queries daily for 50k stake. Credits don't accumulate (use them or lose them), creating additional buy pressure from power users who prefer predictable costs.
+For price-conscious users, we offer staking-based payment. Stake 50,000+ $NOTE to earn "query credits" from staking rewards: about 10 queries daily for 50k stake. Credits don't accumulate (use them or lose them), creating additional buy pressure from power users who prefer predictable costs.
 
 **Anti-gaming measures are built in:** Miners earning below the 20th percentile for 1000 blocks face stake increases. Inactive miners lose 1% stake daily after 7200 blocks. Validators get slashed up to 10% for malicious behavior. We allocate 5% of development funds for market making.
 
@@ -91,11 +96,11 @@ $$\text{Token Velocity} = \frac{\text{Daily Query Volume} \times \text{Average P
 
 Developers don't compete - they naturally generate valuable data through their daily work, earning dividends proportional to how much their workflows help others.
 
-The core mechanism is elegantly simple. As developers code with AI tools (Cursor and Claude Code), the dotvibe CLI captures their workflows in a local graph database. This includes prompts, code changes, errors encountered, solutions found, and architectural decisions. When developers opt into mining, this data is sanitized and shared with the network.
+The core mechanism is elegantly simple. As developers code with AI tools (Cursor and Claude Code), the `dotvibe` CLI captures their workflows in a local graph database. This includes prompts, code changes, errors encountered, solutions found, and architectural decisions. When developers opt into mining, this data is sanitized and shared with the network.
 
 Miners automatically serve **`WorkflowExperiences`** - curated development patterns that show what actually worked in similar situations. When other developers query the network, they receive synthesized experiences from multiple relevant workflows, dramatically improving their AI assistants' responses.
 
-The system leverages insights from multi-agent architectures (**Belle et al., 2025, *Agents of Change***) for aggregating experiences, while using chain-of-thought principles (**Li et al., 2023**) to help AI assistants understand and apply complex development reasoning patterns.
+The system leverages insights from multi-agent architectures (*Belle et al., 2025*) for aggregating experiences, while using chain-of-thought principles (*Li et al., 2023*) to help AI assistants understand and apply complex development reasoning patterns.
 
 The network uses semantic matching to connect queries with relevant experiences. Developers with specialized expertise naturally earn more as their unique workflows become high-value data for specific domains.
 
@@ -158,7 +163,7 @@ $$\text{Consensus Score} = \text{IQM}(\text{Validator Scores}) = \frac{Q_3 + Q_1
 
 **Phase 1: MVP & Go-to-Market (Months 1-2)**
 
-Launch the **dotvibe** CLI as the pioneering tool for workflow mining. Deploy initial network focused on common development patterns (React, Next.js, Python), proving that real workflow data dramatically improves AI assistant responses. The vyb.cx platform demonstrates consumer demand for better AI-generated code.
+Launch the **`dotvibe`** CLI as the pioneering tool for workflow mining. Deploy initial network focused on common development patterns (React, Next.js, Python), proving that real workflow data dramatically improves AI assistant responses. The vyb.cx platform demonstrates consumer demand for better AI-generated code.
 
 **Phase 2: Workflow Sharing Network (Months 2-3)**
 
