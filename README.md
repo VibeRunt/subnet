@@ -38,7 +38,7 @@ As a developer codes naturally using tools like Cursor and Claude Code, our open
 
 We provide the infrastructure (starting with the **`dotvibe CLI`**) for developers to automatically mine their workflows into valuable data. The network curates and distributes these experiences to enhance AI coding assistants. Developers earn **$NOTE** (our subnet's α token) proportional to how much their workflows help others.
 
-**Core Innovation**: The network doesn't generate code, it captures and curates the development workflows that make AI coding agents generate *better* code. Our approach draws on insights from recent research: multi-agent collaboration (**"Agents of Change," [Belle et al.](https://arxiv.org/pdf/2506.04651v1), 2025**) for experience aggregation, and chain-of-thought distillation (**"Symbolic Chain-of-Thought Distillation," [Li et al.](https://arxiv.org/html/2306.14050), 2023**) for transferring complex development reasoning patterns to coding agents.
+**Core Innovation**: The network doesn't generate code, it captures and curates the development workflows that make AI coding agents generate *better* code. Our approach draws on insights from recent research: multi-agent collaboration (**"Agents of Change," [Belle et al.](https://arxiv.org/pdf/2506.04651v1), 2025**) for experience aggregation, and chain-of-thought distillation (**"Symbolic Chain-of-Thought Distillation," [Li et al.](https://arxiv.org/pdf/2306.14050), 2023**) for transferring complex development reasoning patterns to coding agents.
 
 ### **3. Why This Matters Now**
 
@@ -161,7 +161,7 @@ $$\text{Consensus Score} = \text{IQM}(\text{Validator Scores}) = \frac{Q_3 + Q_1
 
 **Phase 1: MVP & Go-to-Market (Months 1-2)**
 
-Launch the **`dotvibe`** CLI as the pioneering tool for workflow mining. Deploy initial network focused on common development patterns (React, Next.js, Python), proving that real workflow data dramatically improves AI assistant responses. The vyb.cx platform demonstrates consumer demand for better AI-generated code.
+Launch the **`dotvibe`** CLI as the pioneering tool for workflow mining. Deploy initial network focused on common development patterns (React, Next.js, Python), proving that real workflow data dramatically improves AI assistant responses. The `vyb.cx` platform demonstrates consumer demand for better AI-generated code.
 
 **Phase 2: Workflow Sharing Network (Months 2-3)**
 
