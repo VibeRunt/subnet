@@ -36,7 +36,7 @@ As a developer codes naturally using tools like Cursor and Claude Code, our open
   - Dev B: Hit middleware Edge runtime error (here's the fix)
   - Dev C: Added social auth seamlessly
 
-We provide the infrastructure (starting with the **`dotvibe CLI`**) for developers to automatically mine their workflows into valuable data. The network curates and distributes these experiences to enhance AI coding assistants. Developers earn **$NOTE** proportional to how much their workflows help others.
+We provide the infrastructure (starting with the **`dotvibe CLI`**) for developers to automatically mine their workflows into valuable data. The network curates and distributes these experiences to enhance AI coding assistants. Developers earn **$NOTE** (our subnet's α token) proportional to how much their workflows help others.
 
 **Core Innovation**: The network doesn't generate code, it captures and curates the development workflows that make AI coding agents generate *better* code. Our approach draws on insights from recent research: multi-agent collaboration (**"Agents of Change," [Belle et al.](https://arxiv.org/pdf/2506.04651v1), 2025**) for experience aggregation, and chain-of-thought distillation (**"Symbolic Chain-of-Thought Distillation," [Li et al.](https://arxiv.org/html/2306.14050), 2023**) for transferring complex development reasoning patterns to coding agents.
 
@@ -56,7 +56,9 @@ Our architecture is validated, our go-to-market plan via **`dotvibe`** is define
 
 ---
 
-## **Part II: Tokenomics of $NOTE**
+<br/>
+
+## **Part II: Tokenomics of `$NOTE`**
 
 The **$NOTE** token solves a simple problem: how do you reward developers for the valuable workflow data their daily coding generates?
 
@@ -72,11 +74,7 @@ It's a flywheel that rewards genuine development work with consistent dividends.
 
 **The demand comes from three sources:**
 
-First, query fees. This is the primary driver - AI platforms, developer tools, and enterprises must pay $NOTE to access curated development experiences. We use dynamic pricing based on query complexity and workflow relevance.
-
-Second, miner stakes. Developers must stake $NOTE to opt into mining - just 1,000 minimum to start sharing workflows. Higher stakes increase mining weight and potential dividends. Stakes lock for 30 days minimum, creating persistent supply reduction.
-
-Third, validator bonds. Validators stake significantly more to participate in consensus - 100,000 $NOTE minimum. Higher stakes mean higher weight in consensus formation. We slash stakes for malicious behavior or persistent outlier scoring.
+First, query fees. This is the primary driver - AI platforms, developer tools, and enterprises must pay `$NOTE` to access curated development experiences. We use dynamic pricing based on query complexity and workflow relevance. Second, miner stakes. Developers must stake `$NOTE` to opt into mining - just 1,000 minimum to start sharing workflows. Higher stakes increase mining weight and potential dividends. Stakes lock for 30 days minimum, creating persistent supply reduction. Third, validator bonds. Validators stake significantly more to participate in consensus - 100,000 `$NOTE` minimum. Higher stakes mean higher weight in consensus formation. We slash stakes for malicious behavior or persistent outlier scoring.
 
 **Supply follows Bittensor's standard model:** 41% to miners based on workflow value and usage, 41% to validators weighted by consensus accuracy, 18% to subnet development for protocol advancement and partnerships. All emissions vest over 7 days to prevent dumping.
 
@@ -241,7 +239,6 @@ Unlike static training data, Transpoze's knowledge base grows organically throug
 | **Core Function** | **Execution Engine:** Generate code based on prompts. They are the "hands." | **Experience Mining:** Capture and curate real developer workflows. We are the "collective memory." |
 | **Source of Expertise** | **Centralized & Static:** Single model trained on public code. Generic, often outdated. | **Decentralized & Living:** Continuous flow of real developer experiences from actual projects. |
 | **Memory Model** | **Session-based:** Forgets everything between sessions. No persistent context. | **Persistent Graph:** Complete workflow history with semantic connections, enabling contextual learning. |
-| **Extensibility** | **Fixed toolset:** Cannot dynamically integrate new capabilities. | **MCP Native:** Seamlessly integrates with any AI tool supporting Model Context Protocol. |
 | **Economic Model** | **Subscription/Usage fees:** Pay the platform, get generic service. | **Mining Dividends:** Developers earn $NOTE for valuable workflows, creating quality incentives. |
 
 ---
@@ -296,4 +293,4 @@ The future isn't about AI replacing developers. It's about developers earning fr
 
 **Perfect Timing**: They're entering the market at the exact moment when cognitive cores, MCP tools, and decentralized AI protocols are becoming production-ready.
 
-**Shared Vision**: Both believe that specialized expertise should be accessible to every AI coding agent, not locked behind corporate AI silos.
+**Shared Vision**: Both believe that superintelligence is within reach, and that the path to it lies through a humagentic society emerging from decentralization.
